@@ -1,4 +1,6 @@
-function logArrayElements (elemento, index, array) {
+function exercise1() {
+
+	function logArrayElements (elemento, index, array) {
 		console.log('numeros[' + index + '] = ' + elemento);
 	} 
 
@@ -12,8 +14,11 @@ function logArrayElements (elemento, index, array) {
 	// numeros[2] = 2
 	// numeros[3] = 3
 	// numeros[4] = 4
+}
 
-function logArrayElements (elemento, index, array) {
+function exercise2() {
+
+	function logArrayElements (elemento, index, array) {
 		console.log(elemento);
 	}
 
@@ -25,8 +30,11 @@ function logArrayElements (elemento, index, array) {
 	//El principito
 	//El psicoanalista
 	//El ruido y la furia
+}
 
-function logArrayElements (elemento, index, array) {
+function exercise3() {
+
+	function logArrayElements (elemento, index, array) {
 		console.log(index + ' ' + elemento);
 	}
 
@@ -37,3 +45,8 @@ function logArrayElements (elemento, index, array) {
 	// 0 San Juan
 	// 1 Cordoba
 	// 2 Buenos Aires
+}
+
+exercise1();
+exercise2();
+exercise3();
